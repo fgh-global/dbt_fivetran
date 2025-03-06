@@ -18,7 +18,8 @@ models:
 vars:
   netsuite_data_model: netsuite2
   netsuite_database: PC_FIVETRAN_DB
-  netsuite_schema: NETSUITE_SUITEANALYTICS 
+  netsuite_schema: NETSUITE_SUITEANALYTICS
+  netsuite2__multibook_accounting_enabled: false
   netsuite:
     ## Netsuite staging models
     netsuite_accounting_books: "{{ ref('stg_netsuite__accounting_books') }}"
