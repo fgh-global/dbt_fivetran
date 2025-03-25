@@ -21,6 +21,8 @@ vars:
   netsuite_schema: NETSUITE_SUITEANALYTICS
   netsuite2__multibook_accounting_enabled: true
   netsuite2_using_to_subsidiary: true
+  transactions_pass_through_columns: 
+    - name: "exchangerate"
   netsuite:
     ## Netsuite staging models
     netsuite_accounting_books: "{{ ref('stg_netsuite__accounting_books') }}"
