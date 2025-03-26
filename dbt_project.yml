@@ -20,7 +20,7 @@ vars:
   netsuite_database: PC_FIVETRAN_DB
   netsuite_schema: NETSUITE_SUITEANALYTICS
   netsuite2__multibook_accounting_enabled: true
-  netsuite2_using_to_subsidiary: true
+  netsuite2__using_to_subsidiary: true
   transactions_pass_through_columns: 
     - name: "exchangerate"
   netsuite:
